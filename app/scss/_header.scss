@@ -1,0 +1,15 @@
+.navbar-header{
+    float: none;
+    margin: 0 auto;
+}
+#logo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-left: -15px;
+    padding-top: 11px; // Adjust for baseline with the menu
+}
+.navbar-toggle{
+    float: left;
+}
