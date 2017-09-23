@@ -1,12 +1,10 @@
-<div id="product" class="row container">
-    <div class="col-sm-12">
-        <div class="card mb-3">
-            <img ng-src=" {{product.image}}" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">{{product.title}}</h4>
-                <p class="card-text">{{product.description}}.</p>
-                <p class="card-text"><i ng-show="product.isOnSale == 'Yes'" class="material-icons">bookmark</i><small class="text-muted">{{product.price| currency}}</small></p>
-            </div>
-        </div>
+<header id="header" class="alt" style="background-image: url({{product.image}}) ">
+    <div class="inner">
+        <h1>{{product.title}}</h1>
+        <p>{{product.price| currency}}</p>
     </div>
-</div>
+</header>
+
+<section id="cta" class=" container main special">
+    <h4>{{product.description}}</h4>
+</section>

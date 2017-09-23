@@ -1,17 +1,27 @@
-<div id="products" class="row container">
-    <div class="col-lg-4 col-sm-12" ng-repeat="product in products | filter : {
+<header id="header" class="alt">
+    <div class="inner">
+        <h1>Promociones</h1>
+        <p>A free responsive site template by <a href="https://templated.co">TEMPLATED</a></p>
+    </div>
+</header>
+
+<div id="products" class="container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-12" ng-repeat="product in products | filter : {
                 isOnSale : 'Yes'
             }">
-        <div class="card" style="width: 20rem;">
-            <a href="#/products/{{product.sku}}">
-                <img class="card-img-top" ng-src="{{product.image}}">
-                <div class="card-body">
-                    <h4 class="card-title"><i ng-show="product.isOnSale == 'Yes'" class="material-icons">bookmark</i>{{product.title}}</h4>
-                </div>
-                <div class="card-footer text-muted">
-                    <p>{{product.price| currency}}</p>
-                </div>
-            </a>
+            <div class="card" style=" margin-top: 10%; width: 20rem;">
+                <a href="#/products/{{product.sku}}">
+                    <img class="card-img-top" ng-src="{{product.image}}">
+                    <div class="card-body">
+                        <h4 class="card-title"><i ng-show="product.isOnSale == 'Yes'" class="material-icons">bookmark</i>{{product.title}}</h4>
+
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>{{product.price| currency}}</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>

@@ -43,15 +43,8 @@ body {
  * 4 - Content
  * -----------------------------------------------------------------------------
  */
-.card-header{
-    height: 10rem !important;
-    background-color: #0a6ebd;
-}
-
-.centrado-vertical{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.card{
+   margin-top: 5% !important;
 }
 
 /**
