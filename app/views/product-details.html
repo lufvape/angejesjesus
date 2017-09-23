@@ -1,19 +1,12 @@
-<div id="product" class="row">
-    <div class="col-md-6">
-        <figure class="featured-image">
-            <img ng-src="{{product.image}}" alt="{{product.title}}" />
-            <span class="sale"  ng-show="product.isOnSale == 'Yes'">Promoción</span>
-        </figure>
-    </div>
-    <div class="col-md-6 text-center">
-        <h1>{{product.title}}</h1>
-        <strong class="price">{{product.price| currency}}</strong>
-        <hr>
-        <p class="text-left">{{product.description}}</p>
-        <hr>
-        <a href="" class="btn btn-primary btn-lg add2cart" ng-class="{'success' : added}" ng-click="add(product)">
-            <span>Agregar al carrito <i class="glyphicon glyphicon-shopping-cart"></i></span>
-            <span><i class="glyphicon glyphicon-thumbs-up"></i> Agregado</span>
-        </a>
+<div id="product" class="row container">
+    <div class="col-sm-12">
+        <div class="card mb-3">
+            <img ng-src=" {{product.image}}" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">{{product.title}}</h4>
+                <p class="card-text">{{product.description}}.</p>
+                <p class="card-text"><i ng-show="product.isOnSale == 'Yes'" class="material-icons">bookmark</i><small class="text-muted">{{product.price| currency}}</small></p>
+            </div>
+        </div>
     </div>
 </div>

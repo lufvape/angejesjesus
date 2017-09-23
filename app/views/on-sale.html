@@ -1,13 +1,18 @@
-<div id="products" class="row">
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product" ng-repeat="product in products | filter : {
+<div id="products" class="row container">
+    <div class="col-lg-4 col-sm-12" ng-repeat="product in products | filter : {
                 isOnSale : 'Yes'
             }">
-        <a href="#/products/{{product.sku}}">
-            <img ng-src="{{product.image}}" alt="{{product.title}}" />
-            <span class="product-title-wrapper">
-                <em class="product-title">{{product.title}} <strong class="price">{{product.price| currency}}</strong></em>
-            </span>
-            <span class="sale"  ng-show="product.isOnSale == 'Yes'">Sale</span>
-        </a>
+        <div class="card" style="width: 20rem;">
+            <a href="#/products/{{product.sku}}">
+                <img class="card-img-top" ng-src="{{product.image}}">
+                <div class="card-body">
+                    <h4 class="card-title"><i ng-show="product.isOnSale == 'Yes'" class="material-icons">bookmark</i>{{product.title}}</h4>
+                </div>
+                <div class="card-footer text-muted">
+                    <p>{{product.price| currency}}</p>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
+

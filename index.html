@@ -1,69 +1,133 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="AngularFireCart">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>ng-store App</title>
+<!DOCTYPE HTML>
+<!--
+	Epilogue by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Epilogue by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-material-design.min.css" integrity="sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL" crossorigin="anonymous">
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="inner">
+					<h1>Fundación Ángeles de Jesús</h1>
+					<p>A free responsive site template by <a href="https://templated.co">TEMPLATED</a></p>
+				</div>
+			</header>
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <body>
-        <!-- Navigation -->
+				<!-- CTA -->
+				<section id="cta" class="main special">
+					<h2>Nuestra historia</h2>
+					<p>Phasellus ac augue ac magna auctor tempus proin<br />
+						accumsan lacus a nibh commodo in pellentesque dui<br />
+						in hac habitasse platea dictumst.</p>
+					<ul class="actions">
+						<li><a href="#proyectos" class="button big">Get Started</a></li>
+					</ul>
+				</section>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+				<section id="tit" class="main special align-center">
+					<h2>Proyectos</h2>
+					<p>Phasellus ac augue ac magna auctor tempus proin<br />
+						accumsan lacus a nibh commodo in pellentesque dui<br />
+						in hac habitasse platea dictumst.</p>
+				</section>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto" ng-controller="CategoriesCtrl">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#/">Todos los productos</a>
-                    </li>
-                    <li class="nav-item" ng-repeat="category in categories">
-                        <a class="nav-link" href="#/categories/{{category.slug}}">{{category.title}}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#/sale"><Span class="glyphicon glyphicon-tag btn-xs"></span> Promociones</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        
-        <!-- Page Content -->
-        <div class="container" ng-view>
-        </div>
-        <!-- /.container -->
+				<!-- Items -->
+					<section id="proyectos" class="main items">
+						<article class="item">
+							<header>
+								<a href="#"><img src="images/pic01.jpg" alt="" /></a>
+								<h3>Feugiat et faucibus</h3>
+							</header>
+							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article class="item">
+							<header>
+								<a href="#"><img src="images/pic02.jpg" alt="" /></a>
+								<h3>Blandit adipiscing</h3>
+							</header>
+							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article class="item">
+							<header>
+								<a href="#"><img src="images/pic03.jpg" alt="" /></a>
+								<h3>Lorem massa nulla</h3>
+							</header>
+							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article class="item">
+							<header>
+								<a href="#"><img src="images/pic04.jpg" alt="" /></a>
+								<h3>Ipsum sed tempus</h3>
+							</header>
+							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+					</section>
+
+				<!-- Banner -->
+				<section id="intro" class="main">
+					<span class="icon fa-diamond major"></span>
+					<h2>Fé</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae<br />
+						malesuada turpis. Nam pellentesque in ac aliquam. Aliquam tempor<br />
+						mi porta egestas maximus lorem ipsum dolor.</p>
+					<ul class="actions">
+						<li><a href="inicio.html" class="button big">Conoce los productos</a></li>
+					</ul>
+				</section>
 
 
-        <!-- Usually these JavaScript files also get uglified for production
-             However, for build time and debugging purpose they are left as is.
-        ==================================================================== -->
-        <script src="libs/jquery/dist/jquery.min.js"></script>
-        <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="libs/angular/angular.js"></script>
-        <script src="libs/angular-resource/angular-resource.js"></script>
-        <script src="libs/angular-route/angular-route.js"></script>
-        <script src="libs/angular-animate/angular-animate.js"></script>
-        <script src="libs/angular-local-storage/angular-local-storage.js"></script>
-        <script src="libs/firebase/firebase.js"></script>
-        <script src="libs/angularfire/dist/angularfire.js"></script>
-        <script src="app/app.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js" integrity="sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/js/bootstrap-material-design.js" integrity="sha384-hC7RwS0Uz+TOt6rNG8GX0xYCJ2EydZt1HeElNwQqW+3udRol4XwyBfISrNDgQcGA" crossorigin="anonymous"></script>
+				<!-- Main -->
+				<!--
+					<section id="main" class="main">
+						<header>
+							<h2>Lorem ipsum dolor</h2>
+						</header>
+						<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare. Etiam eget neque id metus gravida tristique ac quis erat. Aenean quis aliquet sem. Ut ut elementum sem. Suspendisse eleifend ut est non dapibus. Nulla porta, neque quis pretium sagittis, tortor lacus elementum metus, in imperdiet ante lorem vitae ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eget neque id metus gravida tristique ac quis erat. Aenean quis aliquet sem. Ut ut elementum sem. Suspendisse eleifend ut est non dapibus. Nulla porta, neque quis pretium sagittis, tortor lacus elementum metus, in imperdiet ante lorem vitae ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					</section>
+				-->
 
-    </body>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
