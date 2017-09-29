@@ -7,10 +7,10 @@
 
 <div id="products" class="container">
     <div class="row">
-        <div class="col-lg-4 col-sm-12" ng-repeat="product in products | filter : {
+        <div class="col-lg-6 col-sm-12" ng-repeat="product in products | filter : {
                 isOnSale : 'Yes'
             }">
-            <div class="card" style=" margin-top: 10%; width: 20rem;">
+            <div class="card" style=" margin-top: 10%; width: 29rem;">
                 <a href="#/products/{{product.sku}}">
                     <img class="card-img-top" ng-src="{{product.image}}">
                     <div class="card-body">
