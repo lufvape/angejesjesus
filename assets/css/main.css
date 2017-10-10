@@ -1273,6 +1273,7 @@
 /* Header */
 
 	#header {
+		background-image: url("../../images/inicio.jpeg");
 		background-color: #444;
 		color: rgba(255, 255, 255, 0.75);
 		display: -moz-flex;
