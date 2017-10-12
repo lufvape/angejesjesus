@@ -31,6 +31,9 @@
                         <td>
                             <input type="text" class="form-control" placeholder="Slug" ng-value="" ng-model="slug">
                         </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="http://"  ng-model="image">
+                        </td>
                         <td class="narrow">
                             <a href="" class="glyphicon glyphicon-plus" ng-click="addCategory()"></a>
                         </td>
@@ -43,6 +46,9 @@
                         </td>
                         <td>
                             <input type="text" class="form-control" placeholder="Slug"  ng-model="category.slug" ng-change="save(category)">
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="http://"  ng-model="product.image" ng-change="save(product)">
                         </td>
                         <td class="narrow">
                             <a href="" class="glyphicon glyphicon-trash" ng-click="remove(category)"></a>

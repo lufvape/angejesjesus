@@ -1,7 +1,6 @@
-<header id="header" class="alt" ng-controller="CategoriesCtrl">
+<header id="header" class="alt" ng-repeat="category in categories| filter: {slug : slug}" style="background-image: url({{category.image}})">
     <div class="inner">
         <h1 ng-repeat="category in categories| filter: {slug : slug}">{{category.title}}</h1>
-        <p>A free responsive site template by <a href="https://templated.co">TEMPLATED</a></p>
     </div>
 </header>
 

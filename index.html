@@ -5,13 +5,49 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>Fundación Ángeles de Jesús</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Fundación Ángeles de Jesús</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+	<link rel="stylesheet" href="bootstrap-material-design.min.css">
+	<link rel="stylesheet" href="app/style.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
 	<body>
+
+	<nav style="z-index: 999" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<a href="#"><img style="width: 50px; height: 50px; border-radius: 50%" src="img/logo.png" alt="" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent2">
+			<ul class="navbar-nav mr-auto" ng-controller="CategoriesCtrl">
+				<li class="nav-item">
+					<a class="nav-link" href="#cta">Nuestra Historia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#proyectos"> Proyectos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#intro"> Fe</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 		<!-- Header -->
 			<header id="header" class="alt">
@@ -90,7 +126,10 @@
 					<p>Sabemos de regalos de hacer felices  a todos y entregar no solo un detalle sino el corazón. Somos una empresa que surge de la necesidad de hacer
 						sustentable una organización social- Fundación Ángeles de Jesús-<br>
 						Sabemos de regalos de hacer felices a todos y entregar no solo un detalle sino el corazón.<br>
-						Con cada producto que adquieres ayudas a este sueño en construcción. .</p>
+						Con cada producto que adquieres ayudas a este sueño en construcción.</p>
+					<ul class="actions">
+						<li><a href="inicio.html" class="button">Conoce nuestros productos</a></li>
+					</ul>
 				</section>
 
 
@@ -110,7 +149,7 @@
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.facebook.com/FundacionAJ/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/fundacionangelesdejesus/?hl=es" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="# class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul></footer>
 
 			</div>
@@ -120,6 +159,9 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js" integrity="sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw" crossorigin="anonymous"></script>
+	<script src="bootstrap-material-design.js"></script>
 
 	</body>
 </html>
