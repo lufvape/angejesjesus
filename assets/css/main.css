@@ -136,7 +136,7 @@
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: transparent !important;
 		}
 
 	strong, b {
