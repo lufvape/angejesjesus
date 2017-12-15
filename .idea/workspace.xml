@@ -2,11 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a61cf6f-3e9a-4a3a-938e-ccbdaa06c674" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/literallycanvas/js/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/literallycanvas/js/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/literallycanvas/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/literallycanvas/js/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/literallycanvas/js/.npmignore" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/LiterallyCanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/TextRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/bindEvents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/canvasRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/defaultOptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/fontmetrics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/lineEndCapShapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/localization.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/renderSnapshotToImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/renderSnapshotToSVG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/shapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/svgRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/ie_customevent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/ie_setLineDash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas-core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas-core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/font.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/line-options-and-stroke-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/null.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/optionsStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/polygon-and-stroke-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/stroke-or-fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/stroke-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ClearButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ColorWell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/LiterallyCanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/Options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/Picker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/React-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ReactDOM-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/StrokeWidthPicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/UndoRedoButtons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ZoomButtons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/createSetStateOnEventMixin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/createToolButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/initDOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Ellipse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Eraser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Eyedropper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Pan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Pencil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Polygon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Rectangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/SelectShape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/LiterallyCanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/TextRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/bindEvents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/canvasRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/defaultOptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/fontmetrics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/lineEndCapShapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/localization.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/renderSnapshotToImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/renderSnapshotToSVG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/shapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/svgRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/ie_customevent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/ie_setLineDash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas-core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas-core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/font.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/line-options-and-stroke-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/null.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/optionsStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/polygon-and-stroke-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/stroke-or-fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/stroke-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ClearButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ColorWell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/LiterallyCanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/Options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/Picker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/React-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ReactDOM-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/StrokeWidthPicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/UndoRedoButtons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ZoomButtons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/createSetStateOnEventMixin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/createToolButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/initDOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Ellipse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Eraser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Eyedropper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Pan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Pencil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Polygon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Rectangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/SelectShape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/base.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/literallycanvas/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ng-store-master-2.iws" />
@@ -31,7 +135,7 @@
       <file leaf-file-name="paint.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/paint.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55468136">
+            <state vertical-scroll-proportion="0.5555556">
               <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -206,72 +310,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-store-master-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angeles de jesus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-store-master-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angeles de jesus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="literallycanvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-store-master-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angeles de jesus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="literallycanvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -412,17 +450,24 @@
       <option name="project" value="LOCAL" />
       <updated>1507842201446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="estilo">
+      <created>1513376364189</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513376364189</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11539976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11539976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -430,7 +475,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39984882" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -819,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/paint.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55468136">
+        <state vertical-scroll-proportion="0.5555556">
           <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
