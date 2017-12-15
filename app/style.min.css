@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+.literally {
+  min-height: 100vh;
+}
+
 body {
   overflow-y: scroll;
   /* prevents layout from shifting when searching datat */
