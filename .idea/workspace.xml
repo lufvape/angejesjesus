@@ -2,115 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a61cf6f-3e9a-4a3a-938e-ccbdaa06c674" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/LiterallyCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/TextRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/bindEvents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/canvasRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/defaultOptions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/fontmetrics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/lineEndCapShapes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/localization.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/renderSnapshotToImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/renderSnapshotToSVG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/shapes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/svgRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/core/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/ie_customevent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/ie_setLineDash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas-core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas-core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/literallycanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/font.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/line-options-and-stroke-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/null.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/optionsStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/polygon-and-stroke-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/stroke-or-fill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/optionsStyles/stroke-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ClearButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ColorWell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/LiterallyCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/Options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/Picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/React-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ReactDOM-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/StrokeWidthPicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/UndoRedoButtons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/ZoomButtons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/createSetStateOnEventMixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/createToolButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/reactGUI/initDOM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Ellipse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Eraser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Eyedropper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Pan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Pencil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Rectangle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/SelectShape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/Text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/literallycanvas/js/tools/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/LiterallyCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/TextRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/bindEvents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/canvasRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/defaultOptions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/fontmetrics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/lineEndCapShapes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/localization.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/renderSnapshotToImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/renderSnapshotToSVG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/shapes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/svgRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/core/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/ie_customevent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/ie_setLineDash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas-core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas-core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/literallycanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/font.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/line-options-and-stroke-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/null.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/optionsStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/polygon-and-stroke-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/stroke-or-fill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/optionsStyles/stroke-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ClearButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ColorWell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/LiterallyCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/Options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/Picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/React-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ReactDOM-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/StrokeWidthPicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/UndoRedoButtons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/ZoomButtons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/createSetStateOnEventMixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/createToolButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/reactGUI/initDOM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Ellipse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Eraser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Eyedropper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Pan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Pencil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Rectangle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/SelectShape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/Text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/literallycanvas/js/tools/base.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/literallycanvas/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ng-store-master-2.iws" />
@@ -293,20 +184,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="literallycanvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-store-master-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angeles de jesus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
